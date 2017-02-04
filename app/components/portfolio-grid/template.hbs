@@ -1,0 +1,234 @@
+<!-- Portfolio Grid Section -->
+<section id="portfolio" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Portfolio</h2>
+                <h3 class="section-subheading text-muted">Art is never finished, only abandoned.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a {{action "open" "modal1"}} class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/arctic-small.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Arctic Platform</h4>
+                    <p class="text-muted">Full Stack Development</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a {{action "open" "modal2"}} class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/hackerrank-small.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>HackerRank</h4>
+                    <p class="text-muted">Problem Solving</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a h{{action "open" "modal3"}} class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/gameboypi-small.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Gameboy Pi</h4>
+                    <p class="text-muted">Hardware Software Integration</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a {{action "open" "modal4"}} class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/mcwarside-small.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>MCWarside</h4>
+                    <p class="text-muted">Business Startup</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a {{action "open" "modal5"}} class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/website-small" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Personal Website</h4>
+                    <p class="text-muted">Website Design</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a {{action "open" "modal6"}} class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Dreams</h4>
+                    <p class="text-muted">Website Design</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Portfolio Modals -->
+
+<!-- Portfolio Modal 1 -->
+{{#bs-modal-simple
+    open=modal1
+    title=title
+    closeTitle="Okay"
+    submitTitle=submitTitle
+    size=size
+    closeButton=closeButton
+    fade=fade
+    backdrop=backdrop
+    backdropClose=backdropClose
+    onHidden=(action "close" "modal1")
+    renderInPlace=true}}
+
+    <h2>Project Name</h2>
+    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+    <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
+    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+    <p>
+        <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+    <ul class="list-inline">
+        <li>Date: July 2014</li>
+        <li>Client: Round Icons</li>
+        <li>Category: Graphic Design</li>
+    </ul>
+{{/bs-modal-simple}}
+
+<!-- Portfolio Modal 2 -->
+{{#bs-modal-simple
+    open=modal2
+    title=title
+    closeTitle="Okay"
+    submitTitle=submitTitle
+    size=size
+    closeButton=closeButton
+    fade=fade
+    backdrop=backdrop
+    backdropClose=backdropClose
+    onHidden=(action "close" "modal2")
+    renderInPlace=true}}
+
+    <h2>Project Heading</h2>
+    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+    <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
+    <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
+    <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+{{/bs-modal-simple}}
+
+<!-- Portfolio Modal 3 -->
+{{#bs-modal-simple
+    open=modal3
+    title=title
+    closeTitle="Okay"
+    submitTitle=submitTitle
+    size=size
+    closeButton=closeButton
+    fade=fade
+    backdrop=backdrop
+    backdropClose=backdropClose
+    onHidden=(action "close" "modal3")
+    renderInPlace=true}}
+
+    <h2>Project Name</h2>
+    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+    <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+    <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+    <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+{{/bs-modal-simple}}
+
+<!-- Portfolio Modal 4 -->
+{{#bs-modal-simple
+    open=modal4
+    title=title
+    closeTitle="Okay"
+    submitTitle=submitTitle
+    size=size
+    closeButton=closeButton
+    fade=fade
+    backdrop=backdrop
+    backdropClose=backdropClose
+    onHidden=(action "close" "modal4")
+    renderInPlace=true}}
+
+    <h2>Project Name</h2>
+    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+    <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+    <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+    <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+{{/bs-modal-simple}}
+
+<!-- Portfolio Modal 5 -->
+{{#bs-modal-simple
+    open=modal5
+    title=title
+    closeTitle="Okay"
+    submitTitle=submitTitle
+    size=size
+    closeButton=closeButton
+    fade=fade
+    backdrop=backdrop
+    backdropClose=backdropClose
+    onHidden=(action "close" "modal5")
+    renderInPlace=true}}
+
+    <h2>Project Name</h2>
+    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+    <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+    <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+    <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+{{/bs-modal-simple}}
+
+<!-- Portfolio Modal 6 -->
+{{#bs-modal-simple
+    open=modal6
+    title=title
+    closeTitle="Okay"
+    submitTitle=submitTitle
+    size=size
+    closeButton=closeButton
+    fade=fade
+    backdrop=backdrop
+    backdropClose=backdropClose
+    onHidden=(action "close" "modal6")
+    renderInPlace=true}}
+
+    <h2>Project Name</h2>
+    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+    <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+    <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+    <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+{{/bs-modal-simple}}
+
+{{yield}}

@@ -1,6 +1,7 @@
 {
   "name": "personal-site-2",
   "dependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "firebase": "^3.0.0"
   }
 }

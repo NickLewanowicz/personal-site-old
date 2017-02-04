@@ -1,0 +1,81 @@
+{
+  "basics": {
+    "name": "Nicholas Lewanowicz",
+    "label": "Software Developer",
+    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/0a9/1ec/2f23feb.jpg",
+    "email": "nicholas.lewanowicz@carleton.ca",
+    "phone": "(613) 852-7309",
+    "website": "http://nicklewanowicz.xyz",
+    "summary": "A summary of John Doe...",
+    "location": {
+      "address": "2518 Iris St",
+      "postalCode": "CA 94115",
+      "city": "Ottawa",
+      "countryCode": "CA",
+      "region": "Ontario"
+    },
+    "profiles": [{
+      "network": "Twitter",
+      "username": "nicklewanowicz",
+      "url": "https://twitter.com/nicklewanowicz"
+    },{
+      "network": "LinkedIn",
+      "username": "Nicholas Lewanowicz",
+      "url": "https://www.linkedin.com/in/nicholas-lewanowicz-87a857ab"
+    },{
+      "network": "GitHub",
+      "username": "nickLewanowicz",
+      "url": "https://github.com/NickLewanowicz"
+    }]
+  },
+  "work": [{
+    "company": "Ciena Blueplanet",
+    "position": "Software Developer",
+    "website": "http://www.ciena.com/",
+    "startDate": "2016-09-01",
+    "endDate": "2017-04-30",
+    "summary": "Description...",
+    "highlights": [
+      "Started the company"
+    ]
+  }],
+  "volunteer":[],
+  "education": [{
+    "institution": "Carleton University",
+    "area": "Computer Science - Software Engineering",
+    "studyType": "Bachelor",
+    "startDate": "2013-09-01",
+    "endDate": "2019-04-01",
+    "gpa": "9.00",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }],
+  "awards": [],
+  "publications": [],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ]
+  }],
+  "languages": [{
+    "name": "English",
+    "level": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference..."
+  }],
+  "misc":[]
+}
